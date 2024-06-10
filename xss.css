@@ -1,0 +1,63 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#xssinput{
+    width: 70%;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+#pointer{
+    position: relative;
+    top: 200px;
+    right: 200px;
+    display: block;
+}
+
+#pointer2{
+    display: none;
+    position: relative;
+    top: 60px;
+    right: 74px;
+    width: 10px;
+}
+
+.tt{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    cursor: none;
+}

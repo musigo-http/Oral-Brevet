@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diapositive</title>
+    <link rel="stylesheet" href="xss.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="tt"></div>
+    <div class="container">
+        <h1>Faille XSS (Cross Site Scripting)</h1>
+        <!--<button id="animationButton">Clique sur la page pour lancer la première animation</button>-->
+        <input type="text" id="xssinput" value="">
+        <button id="btn">submit</button>
+    </div>
+    <i class="fa-solid fa-arrow-pointer" id="pointer"></i>
+    <i class="fa-solid fa-hand-pointer" id="pointer2"></i>
+    <script src="xss.js"></script>
+    <!--<script>
+        document.getElementById('animationButton').addEventListener('click', function() {
+            alert('Animation lancée!');
+            // Place for further animation or XSS demonstration code
+        });
+    </script>-->
+</body>
+</html>

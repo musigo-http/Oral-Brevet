@@ -1,0 +1,79 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    cursor: none;
+}
+
+.container {
+    position: relative;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 10px;
+}
+/*
+#hats{
+    border-radius: 10px;
+}*/
+
+#username, #password, #submit{
+    width: 70%;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+/*pour l'instant*/
+#pointer{
+    position: relative;
+    top: 200px;
+    right: 200px;
+    display: block;
+    width: 0px;
+    height: 0px;
+}
+
+#eye, #eye2{
+    position: absolute;
+    right: 17%;
+    bottom: 27%;
+}
+
+#pointer2{
+    position: absolute;
+    right: 36.7%;
+    bottom: 37.7%;
+    display: none;
+    width: 0px;
+    height: 0px;
+}
+
+#submit{
+    background-color: #007bff;/*#0056b3*/
+}
+
+#eye2{
+    display: none;
+}
+/*faire l'oeuil pour ecrire notre requete sql dans password puis mettre cliquer sur l'oeuil de la meme façon que xss pour que les prof voyent la requete puis faire une page ou on accede des que e bouton se connecter et appuier ou elle dit on es bien connécté ou bienvenue <username> etc*/
