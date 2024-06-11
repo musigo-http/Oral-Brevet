@@ -30,10 +30,10 @@ var interval = setInterval(function(){
         if(i2 === 70){
             i = 106;
             clearInterval(interval);
-            document.getElementById("pointer").style.display = "none";
+            document.getElementById("pointer").style.display = "block";//none
             document.getElementById("pointer2").style.display = "block";
             setTimeout(function(){
-                document.getElementById("eye").style.display = "none";
+                document.getElementById("eye").style.display = "block";//none
                 document.getElementById("eye2").style.display = "block";
             }, 100);
             setTimeout(function(){
@@ -50,15 +50,15 @@ var interval = setInterval(function(){
 document.addEventListener("copy", function(){
     //baissser la souris sur le btn
     var boucle_int = setInterval(function(){
-        document.getElementById("pointer2").style.display = "none";
+        document.getElementById("pointer2").style.display = "none";//none
         document.getElementById("pointer").style.display = "block";
         document.getElementById("pointer").style.right = i + "px";
         document.getElementById("pointer").style.top = i2 + "px";
         if(i2 === 113){
             clearInterval(boucle_int);
             document.getElementById("pointer").style.display = "none";//none
-            document.getElementById("pointer2").style.bottom = 37.7 - 8.2 + "%";
-            document.getElementById("pointer2").style.right = 36.7 + 3.2 + "%";
+            document.getElementById("pointer2").style.top = 111 + "px";
+            document.getElementById("pointer2").style.right = 153 + "px";
             document.getElementById("pointer2").style.display = "block";
             setTimeout(function(){
                 document.getElementById("submit").style.backgroundColor = "#0056b3";
