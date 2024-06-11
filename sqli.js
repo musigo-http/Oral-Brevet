@@ -30,10 +30,10 @@ var interval = setInterval(function(){
         if(i2 === 70){
             i = 106;
             clearInterval(interval);
-            document.getElementById("pointer").style.display = "block";//none
+            document.getElementById("pointer").style.display = "none";//none
             document.getElementById("pointer2").style.display = "block";
             setTimeout(function(){
-                document.getElementById("eye").style.display = "block";//none
+                document.getElementById("eye").style.display = "none";//none
                 document.getElementById("eye2").style.display = "block";
             }, 100);
             setTimeout(function(){
