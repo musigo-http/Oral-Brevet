@@ -61,9 +61,9 @@ h1 {
 }
 
 #pointer2{
-    position: absolute;
-    right: 36.7%;
-    bottom: 37.7%;
+    position: relative;
+    right: 110px;
+    top: 65px;
     display: none;
     width: 0px;
     height: 0px;
